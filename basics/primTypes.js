@@ -123,9 +123,7 @@ document.body.innerHTML = "<h2> Todays date is :" +d + "</h2>"
 
 document.body.innerHTML += "<p> hello " +yourName+ "! look in console to run my code </p>"
 
-/** and finally not all code expected to end/not-end in semicolon after curly braces
- * better practice - use semicolon is a common convension to seperate each statement, regardless of new lines or not.
- */
+
 
 /**
  * Be careful, as not all code encased in curly brackets will end without a semicolon. Objects are encased in curly brackets, and should end in a semicolon.
@@ -140,3 +138,7 @@ const triangle2 = {
 
 }; // better to end with semi-colon
 console.log(triangle2)
+
+/** and finally not all code expected to end/not-end in semicolon after curly braces
+ * better practice - use semicolon is a common convension to seperate each statement, regardless of new lines or not.
+ */
